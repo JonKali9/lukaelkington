@@ -38,4 +38,9 @@ app.use(function(err, req, res, next) {
   res.render('error');
 });
 
+//Start server
+app.listen(3001, () => {
+  console.log(`[+] Server listening on port 3001.`);
+})
+
 module.exports = app;

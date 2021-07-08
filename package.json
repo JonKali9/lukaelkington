@@ -1,0 +1,21 @@
+{
+  "name": "lukaelkington.com",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node back-end/app.js ",
+    "heroku-postbuild": "cd front-end/; npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JonKali9/lukaelkington.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JonKali9/lukaelkington/issues"
+  },
+  "homepage": "https://github.com/JonKali9/lukaelkington#readme"
+}
